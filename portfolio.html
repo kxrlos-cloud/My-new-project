@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carlos Oduor | Web Developer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #0288d1;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        #projects img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: #f5f5f5;
+        }
+
+        .dark-mode header, .dark-mode footer {
+            background-color: #1e1e1e;
+        }
+
+        .dark-mode nav a:hover {
+            background-color: #f5f5f5;
+            color: #121212;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 10px 0;
+            background-color: #0288d1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #01579b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carlos Oduor</h1>
+        <p>Web Developer & Learner</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Carlos, a beginner web developer passionate about coding, creating, and learning new things every day.</p>
+        <button onclick="toggleMode()">Light/Dark Mode</button>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>This is an image of a cat in HD:</p>
+        <img src="pexels-pixabay-104827.jpg" alt="Cat in HD">
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Hobbies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carlos Oduor</td>
+                    <td>
+                        Web development<br>
+                        Coding<br>
+                        Reading<br>
+                        Not gaming
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <button onclick="alert('Email: carlosodour18@example.com')">Email Me</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Carlos Oduor. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

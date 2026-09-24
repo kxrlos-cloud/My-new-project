@@ -1,9 +1,41 @@
-<doctype html>
-    <html lang="en">
-        <head>
-            <title>hello</title>
-        </head>
-        <body>
-            <h1>HELLO WORLD</h1>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>hello</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                animation: fadeIn 0.8s ease both, colorShift 2.4s ease-in-out infinite;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(12px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes colorShift {
+                0%, 100% { color: #0288d1; }
+                50% { color: #00695c; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                h1 {
+                    animation: none;
+                    color: #0288d1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HELLO WORLD</h1>
+    </body>
+</html>

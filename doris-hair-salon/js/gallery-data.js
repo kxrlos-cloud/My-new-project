@@ -1,4 +1,4 @@
-/** Gallery — real Doris Hair Salon client photos */
+/** Gallery — real Hair by Doris client photos */
 window.DORIS_GALLERY = [
   {
     id: "g1",
@@ -20,16 +20,16 @@ window.DORIS_GALLERY = [
     id: "g3",
     src: "images/03-black-braids-outdoor.jpg",
     alt: "Long black braids with curly ends worn outdoors at golden hour",
-    caption: "Black braids · client work",
-    category: "box",
+    caption: "Goddess braids · client work",
+    category: "goddess",
     tall: true,
   },
   {
     id: "g4",
     src: "images/04-black-braids-studio-portrait.jpg",
-    alt: "Front portrait of long black box braids with a clean center part",
-    caption: "Box braids · client work",
-    category: "box",
+    alt: "Front portrait of long black loose braids with a clean center part",
+    caption: "Loose braids · client work",
+    category: "loose",
     tall: false,
   },
   {
@@ -47,5 +47,45 @@ window.DORIS_GALLERY = [
     caption: "Spiral-end braids · client work",
     category: "goddess",
     tall: false,
+  },
+  {
+    id: "g7",
+    src: "images/01-mini-twists-semi-human.jpg",
+    alt: "Voluminous black mini twists with curly texture, semi-human hair, salon setting",
+    caption: "Mini twists (semi-human) · client work",
+    category: "twists",
+    tall: true,
+  },
+  {
+    id: "g8",
+    src: "images/02-unlabeled-teal-outdoor-braids.jpg",
+    alt: "Back view of medium boho box braids with neat square parts and curly ends outdoors",
+    caption: "Boho box braids · client work",
+    category: "box",
+    tall: false,
+  },
+  {
+    id: "g9",
+    src: "images/03-loose-braids-white-tee.jpg",
+    alt: "Back view of long loose braids with burgundy blend and clean parts, white tee",
+    caption: "Loose braids · client work",
+    category: "loose",
+    tall: true,
+  },
+  {
+    id: "g10",
+    src: "images/04-unlabeled-auburn-boho-overhead.jpg",
+    alt: "Overhead view of auburn goddess boho braids with curly ends and clean box parts",
+    caption: "Goddess / boho braids · client work",
+    category: "goddess",
+    tall: false,
+  },
+  {
+    id: "g11",
+    src: "images/05-deep-twists.jpg",
+    alt: "Client smiling with deep twists that open into long defined spiral curls",
+    caption: "Deep twists · client work",
+    category: "twists",
+    tall: true,
   },
 ];

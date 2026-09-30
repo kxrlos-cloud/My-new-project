@@ -1,4 +1,4 @@
-/* Doris Hair Salon — prototype
+/* Hair by Doris — prototype
    Palette: warm ivory/sand + charcoal type + turquoise accent only */
 
 :root {
@@ -875,9 +875,22 @@ button:focus-visible {
 
 @media (min-width: 800px) {
   .review-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
   }
+}
+
+.partners-line {
+  margin: 2.5rem 0 0;
+  text-align: center;
+  font-size: 0.92rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.partners-line span {
+  color: var(--charcoal-soft);
+  font-weight: 600;
 }
 
 .review-card {

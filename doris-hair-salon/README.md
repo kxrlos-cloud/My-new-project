@@ -1,4 +1,4 @@
-# Doris Hair Salon — first-look prototype
+# Hair by Doris — first-look prototype
 
 Static HTML/CSS/JS prototype for client design review.
 
@@ -44,9 +44,11 @@ doris-hair-salon/
 
 ## Notes
 
+- Brand: **Hair by Doris**
 - Book CTAs and the floating WhatsApp button open `wa.me/254724780932`.
 - Hero + gallery use real client work photos (lazy-loaded gallery with lightbox + filters).
-- Google Reviews section uses verified quotes from the Maps place for Kenyatta market stall 221 (link in site).
+- Google Reviews: two verified 5★ quotes (Jeptoo K., Joanna K.) from Maps place Kenyatta market stall 221.
+- Partners (client-stated): proudly partners with / uses Darling Kenya and Angels braids — no logos or exclusive claims invented.
 - Placeholders remain for service prices, clock hours, street address text, and about history.
 
 ## Future work

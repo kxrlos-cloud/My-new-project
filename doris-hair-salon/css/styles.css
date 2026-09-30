@@ -893,6 +893,55 @@ button:focus-visible {
   font-weight: 600;
 }
 
+.partners-line__bestbuy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.bestbuy-icon {
+  display: inline-block;
+  width: 1.85rem;
+  height: auto;
+  vertical-align: -0.2em;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.bestbuy-mention {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.bestbuy-mention .bestbuy-icon {
+  margin-top: 0.28em;
+  width: 2rem;
+}
+
+.bestbuy-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.bestbuy-heading .bestbuy-icon {
+  width: 1.75rem;
+}
+
+.bestbuy-mention--on-dark {
+  justify-content: center;
+  text-align: left;
+  max-width: 34rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bestbuy-mention--on-dark .bestbuy-icon {
+  margin-top: 0.15em;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.35));
+}
+
 .review-card {
   border-top: 2px solid var(--turquoise);
   padding-top: 1.15rem;

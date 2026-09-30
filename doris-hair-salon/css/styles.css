@@ -1,4 +1,4 @@
-/* Hair by Doris — prototype
+/* Hair by Doris
    Palette: warm ivory/sand + charcoal type + turquoise accent only */
 
 :root {
@@ -540,9 +540,15 @@ button:focus-visible {
 /* Gallery */
 .gallery-filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.5rem;
   margin-bottom: 1.75rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 0.35rem;
+  margin-inline: -0.15rem;
+  padding-inline: 0.15rem;
 }
 
 .filter-btn {
@@ -556,6 +562,8 @@ button:focus-visible {
   border-radius: var(--radius);
   cursor: pointer;
   transition: background 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .filter-btn:hover {
@@ -784,45 +792,47 @@ button:focus-visible {
   background: var(--charcoal);
   color: var(--white);
   display: grid;
-  place-items: end start;
-  padding: 1.25rem;
+  grid-template-rows: 1fr auto;
+  padding: 0;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
 }
 
-.visit__map-art {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 30% 40%, var(--turquoise-bright), transparent 42%),
-    radial-gradient(circle at 70% 70%, rgba(224, 210, 189, 0.35), transparent 40%),
-    repeating-linear-gradient(
-      -18deg,
-      transparent,
-      transparent 18px,
-      rgba(255, 252, 247, 0.04) 18px,
-      rgba(255, 252, 247, 0.04) 19px
-    ),
-    #1a1714;
-  opacity: 0.95;
-  animation: mapPulse 8s ease-in-out infinite alternate;
+.visit__map-panel:hover,
+.visit__map-panel:focus-visible {
+  outline: 2px solid var(--turquoise);
+  outline-offset: 2px;
 }
 
-@keyframes mapPulse {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.06);
-  }
+.visit__map-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 14rem;
+  border: 0;
+  pointer-events: none;
 }
 
 .visit__map-caption {
   position: relative;
   z-index: 1;
   margin: 0;
+  padding: 0.75rem 1rem;
   font-size: 0.85rem;
   letter-spacing: 0.04em;
+  background: rgba(26, 23, 20, 0.92);
+}
+
+.visit__maps-backup {
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+  color: var(--charcoal-soft);
+}
+
+.visit__maps-backup a {
+  word-break: break-all;
 }
 
 /* Social */

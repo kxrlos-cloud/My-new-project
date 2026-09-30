@@ -1,6 +1,6 @@
-# Hair by Doris — first-look prototype
+# Hair by Doris
 
-Static HTML/CSS/JS prototype for client design review.
+Static HTML/CSS/JS site for Hair by Doris (Nairobi).
 
 ## Open locally
 
@@ -49,8 +49,9 @@ doris-hair-salon/
 - Hero + gallery use real client work photos (lazy-loaded gallery with lightbox + filters).
 - Google Reviews: two verified 5★ quotes (Jeptoo K., Joanna K.) from Maps place Kenyatta market stall 221.
 - Partners (client-stated): proudly partners with / uses Darling Kenya and Angels braids — no logos or exclusive claims invented.
-- **Bestbuy** hair (side company): short on-site mention that it is currently on offer; ask in-salon or WhatsApp. No fake catalog, prices, logos, or URLs.
-- Placeholders remain for service prices, clock hours, street address text, and about history.
+- **Bestbuy** hair (side company): BB icon + currently on offer; ask in-salon or WhatsApp. No fake catalog, prices, or URLs.
+- Location: Kenyatta Market, Stall 221, Nairobi · Mon–Sun 7:00 AM – 7:00 PM · clickable Google Maps panel.
+- Gallery filters: Knotless → Loose Braids → Box / Boho → Twists → Goddess / Ombre → All (last). Default shows all looks.
 
 ## Future work
 

@@ -16,6 +16,7 @@
 
     if (!grid || !lightbox || !lightboxImg) return;
 
+    // Default: show every look (same as tapping All). Style chips filter; All clears.
     let activeFilter = "all";
     let visibleItems = galleryItems.slice();
     let lightboxIndex = 0;

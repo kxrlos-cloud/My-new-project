@@ -1,0 +1,5 @@
+# Publish the salon site folder so Netlify preview loads the prototype
+# (repo root still has unrelated demo HTML files).
+[build]
+  publish = "doris-hair-salon"
+  command = "echo 'Static site — no build step'"

@@ -925,8 +925,14 @@ button:focus-visible {
   gap: 0.45rem;
 }
 
+.why-list h3.bestbuy-heading {
+  padding-left: 1rem;
+}
+
 .bestbuy-heading .bestbuy-icon {
   width: 1.75rem;
+  position: relative;
+  z-index: 1;
 }
 
 .bestbuy-mention--on-dark {

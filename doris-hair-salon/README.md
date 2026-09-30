@@ -46,7 +46,8 @@ doris-hair-salon/
 
 - Book CTAs and the floating WhatsApp button open `wa.me/254724780932`.
 - Hero + gallery use real client work photos (lazy-loaded gallery with lightbox + filters).
-- Placeholders remain for service prices, clock hours, street address text, testimonials, and about history.
+- Google Reviews section uses verified quotes from the Maps place for Kenyatta market stall 221 (link in site).
+- Placeholders remain for service prices, clock hours, street address text, and about history.
 
 ## Future work
 

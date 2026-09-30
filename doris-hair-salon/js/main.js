@@ -36,7 +36,7 @@
 
   function initReveal() {
     const nodes = document.querySelectorAll(
-      ".section__intro, .service-item, .why-list li, .testimonial-list li, .social-list li, .about__layout, .visit__layout, .cta-final__inner"
+      ".section__intro, .service-item, .why-list li, .review-list li, .social-list li, .about__layout, .visit__layout, .cta-final__inner"
     );
 
     if (!("IntersectionObserver" in window)) {

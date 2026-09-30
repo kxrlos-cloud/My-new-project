@@ -979,6 +979,13 @@ button:focus-visible {
   color: rgba(255, 252, 247, 0.88);
 }
 
+.cta-final__aside {
+  margin: -0.85rem auto 1.75rem !important;
+  max-width: 34rem;
+  font-size: 0.95rem;
+  color: rgba(255, 252, 247, 0.78) !important;
+}
+
 .cta-final__actions {
   display: flex;
   flex-wrap: wrap;

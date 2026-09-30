@@ -49,8 +49,9 @@ doris-hair-salon/
 - Hero + gallery use real client work photos (lazy-loaded gallery with lightbox + filters).
 - Google Reviews: two verified 5★ quotes (Jeptoo K., Joanna K.) from Maps place Kenyatta market stall 221.
 - Partners (client-stated): proudly partners with / uses Darling Kenya and Angels braids — no logos or exclusive claims invented.
+- **Bestbuy** hair (side company): short on-site mention that it is currently on offer; ask in-salon or WhatsApp. No fake catalog, prices, logos, or URLs.
 - Placeholders remain for service prices, clock hours, street address text, and about history.
 
 ## Future work
 
-**Owner braids / product browse (deferred).** The salon owner also has a separate braids / hair-product business. Later, this site should offer a place to browse those products — cross-promotion only, not the homepage focus. Do not invent a catalog or prices; wait for real product photos/names and an explicit request to build. See project note `docs/doris-future-braids-shop.md` in the agent store / tracked GitHub issue on this repo.
+**Bestbuy product browse (deferred).** Hair by Doris is linked with **Bestbuy** hair — currently on offer (light mention on the site already). A dedicated browse/catalog section should wait until Carlos asks with real SKUs/photos/prices. Do not invent a product grid. See project note `docs/doris-future-braids-shop.md` in the agent store.

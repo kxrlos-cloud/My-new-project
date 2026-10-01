@@ -1,0 +1,10 @@
+---
+description: Explain each idea and wait for a go-ahead before changing the project
+alwaysApply: true
+---
+
+When Carlos shares an idea, explain it first. Describe what it would change and how it would work.
+
+Do not edit project files, commit, push, or open a pull request for that idea until Carlos gives a clear go-ahead.
+
+Do not commit idea work directly to `main`. After a go-ahead, put the change on a feature branch and a pull request so Carlos can review it before it reaches `main`.

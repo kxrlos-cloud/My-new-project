@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bestbuy — Business Card Front</title>
+  <link rel="stylesheet" href="css/card.css" />
+  <style>
+    @font-face {
+      font-family: "Card Serif";
+      src: url("fonts/NotoSerif-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Card Serif";
+      src: url("fonts/NotoSerif-Italic.ttf") format("truetype");
+      font-weight: 400;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Card Serif";
+      src: url("fonts/NotoSerif-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Card Sans";
+      src: url("fonts/NotoSans-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Card Sans";
+      src: url("fonts/NotoSans-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body class="export">
+  <article class="card card--front" aria-label="Bestbuy business card front">
+    <div class="corner-rule corner-rule--tl" aria-hidden="true"></div>
+    <div class="corner-rule corner-rule--br" aria-hidden="true"></div>
+    <div class="safe">
+      <div class="front-layout">
+        <div class="brand-block">
+          <img
+            class="bb-icon"
+            src="assets/bestbuy-bb-icon.png"
+            alt="Bestbuy BB icon"
+            width="220"
+            height="118"
+          />
+          <h1 class="brand-name">Bestbuy</h1>
+          <svg class="wave" viewBox="0 0 148 14" fill="none" aria-hidden="true">
+            <path
+              d="M1 8.5C18 2.5 28 2.5 45 8.5C62 14.5 72 14.5 89 8.5C106 2.5 116 2.5 147 8.5"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="details-block">
+          <p class="tagline">
+            Hair &amp; braids products<br />
+            <em>Currently on offer</em>
+          </p>
+          <ul class="contact-list">
+            <li>
+              <svg class="icon-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7.5 4.5h3l1.2 4.2-1.8 1.1a12.5 12.5 0 0 0 5.3 5.3l1.1-1.8 4.2 1.2v3a1.5 1.5 0 0 1-1.5 1.5A14.5 14.5 0 0 1 4.5 6A1.5 1.5 0 0 1 6 4.5h1.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <span class="label">Call / WhatsApp</span>
+                <span class="value">0724 780 932</span>
+              </div>
+            </li>
+            <li>
+              <svg class="icon-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s6.5-5.2 6.5-10.2A6.5 6.5 0 0 0 12 4.3a6.5 6.5 0 0 0-6.5 6.5C5.5 15.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.7"/>
+                <circle cx="12" cy="10.6" r="2.2" stroke="currentColor" stroke-width="1.7"/>
+              </svg>
+              <div>
+                <span class="label">Visit</span>
+                <span class="value value--soft">Kenyatta Market, Stall 221<br />Nairobi</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+</body>
+</html>

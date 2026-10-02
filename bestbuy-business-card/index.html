@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bestbuy business card — preview</title>
+  <link rel="stylesheet" href="css/card.css" />
+  <style>
+    @font-face {
+      font-family: "Card Serif";
+      src: url("fonts/NotoSerif-Italic.ttf") format("truetype");
+      font-weight: 400;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Card Sans";
+      src: url("fonts/NotoSans-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    .scale-wrap {
+      width: min(100%, 1050px);
+      overflow: hidden;
+    }
+    .scale-inner {
+      width: 1050px;
+      height: 600px;
+      transform-origin: top left;
+    }
+    @media (max-width: 1100px) {
+      .scale-inner {
+        transform: scale(calc((100vw - 2.5rem) / 1050));
+      }
+      .scale-wrap {
+        height: calc(600px * ((100vw - 2.5rem) / 1050));
+      }
+    }
+  </style>
+</head>
+<body class="preview">
+  <div class="preview-wrap">
+    <h1>Bestbuy business card</h1>
+    <p class="lede">
+      Print-ready 3.5 × 2 in (89 × 51 mm) · 300 dpi exports in <code>exports/</code>.
+      Open <a href="card-front.html">front</a> / <a href="card-back.html">back</a> alone for full-size view.
+    </p>
+    <div class="preview-grid">
+      <section>
+        <p class="preview-label">Front</p>
+        <div class="scale-wrap card-frame">
+          <div class="scale-inner">
+            <iframe src="card-front.html" title="Bestbuy card front" width="1050" height="600" loading="eager"></iframe>
+          </div>
+        </div>
+      </section>
+      <section>
+        <p class="preview-label">Back</p>
+        <div class="scale-wrap card-frame">
+          <div class="scale-inner">
+            <iframe src="card-back.html" title="Bestbuy card back" width="1050" height="600" loading="eager"></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
